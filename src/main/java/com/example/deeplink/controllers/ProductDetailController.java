@@ -51,18 +51,6 @@ https://www.trendyol.com/casio/saat-p- 1925865?boutiqueId=439892&merchantId=1050
         //ty://?Page=Product&ContentId=1925865&CampaignId=439892&MerchantId=105064
             ProductDetail product =     new ProductDetail();
 
-        System.out.println(weburl);
-        System.out.println(weburl.split("/")[3]);
-        System.out.println(weburl.split("/")[3].split("-")[0]);
-        System.out.println(weburl.split("/")[4].split("-")[2].split("\\?")[0]);
-        System.out.println(weburl.split("/")[4].split("\\?")[1]);
-        System.out.println(weburl.split("/")[4].split("\\?")[1].split("=")[1]);
-        System.out.println(weburl.split("/")[4].split("\\?")[1]);
-        System.out.println(weburl.split("/")[4]
-                .split("\\?")[1]
-                .split("&")[1].split("=")[1]);
-
-
         product.setBrandName(weburl.split("/")[3]);
             product.setCategoryName(weburl.split("/")[3]);
             product.setProductName(weburl.split("/")[3].split("-")[0]);
