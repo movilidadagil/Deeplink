@@ -48,6 +48,7 @@ https://www.trendyol.com/casio/saat-p- 1925865?boutiqueId=439892&merchantId=1050
         //ty://?Page=Product&ContentId=1925865&Camp aignId=439892&MerchantId=105064
        // ty://?Page=Product&ContentId=1925865&CampaignIdboutiqueId&MerchantIdmerchantId
         //ty://?Page=Product&ContentId=1925865&CampaignIdboutiqueId&MerchantIdmerchantId
+        //ty://?Page=Product&ContentId=1925865&CampaignId=439892&MerchantId=105064
             ProductDetail product =     new ProductDetail();
 
         System.out.println(weburl);
